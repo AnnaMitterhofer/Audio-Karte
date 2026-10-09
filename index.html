@@ -37,14 +37,31 @@
       color: white;
       cursor: pointer;
     }
-     .foto { max-width 120px; margin-left auto; margin-right 0; }  
-    @media (max-width: 600px) 
-    { .logo { max-width: 120px; max-height: 60px; margin-bottom: 20px; } 
-     .foto { max-width: 80px; width: auto} 
-     .play-button { font-size 32px; padding 22px 40px; } } 
-    audio {
-      display: none;
-    }
+    .audio { 
+      display none} 
+    media (max-width: 600px)
+  { .logo { max-width: 120px; 
+             max-height: 60px; 
+             margin-bottom: 20px; }
+   .foto { 
+       max-width: 80px;
+     width: auto;
+     heigh: auto;
+       margin-left auto; 
+       margin-right 0; }
+   .play-button {
+     font-size:32px;
+     padding:22px 40px;} 
+   
+     @media (min-width: 601px) 
+   {   .logo { 
+     max-width:50px;
+     heigh:auto;
+     margin-left:auto;
+     margin-right 0; }
+   .play-button {
+     font-size:32px;
+     padding: 22px 40px }
     
   </style>
 </head>
